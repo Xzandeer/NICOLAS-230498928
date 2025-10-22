@@ -1,0 +1,51 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background-color: #0b1020;
+  color: #e8ebff;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #141b34;
+  border-bottom: 1px solid #24305a;
+}
+
+h1 { margin-bottom: 0; }
+p { color: #b5bee8; }
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.task-list li {
+  margin: 10px 0;
+}
+
+.task-list a {
+  display: block;
+  background: #1b2449;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #e8ebff;
+  border: 1px solid #24305a;
+  transition: background 0.2s;
+}
+
+.task-list a:hover {
+  background: #2a3674;
+}
+
+pre {
+  background: #0f1530;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+  border: 1px solid #24305a;
+}
